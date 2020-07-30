@@ -1,0 +1,67 @@
+#quote-box {
+    align-items: center;
+    background-color: $dark-background;
+    color: $red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.8rem 1.2rem 1.8rem 1.2rem;
+    width: 50rem;
+}
+
+.content-box {
+    width: 100%;
+}
+
+#text {
+    p:before {
+        content: '"';
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    padding: 1.8rem 1.2rem 1.8rem 1.2rem;
+}
+
+#author {
+    align-items: center;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 500;
+    justify-content: end;
+    padding-right: 1.6rem;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.8rem 1.6rem 2rem 0;
+    width: 100%;
+}
+
+#new-quote {
+    border: none;
+    padding: 1.6rem 1.2rem 1.6rem 1.2rem;
+    background-color: $red;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+#share {
+    background-color: $red;
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem 0 1.2rem;
+    a {
+        color: white;
+        font-size: 1.4rem;
+        text-decoration: none;
+        font-weight: 300;
+    }
+}
