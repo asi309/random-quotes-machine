@@ -7,7 +7,7 @@ const Tweet = (props) => {
         <div id="share">
             <a
                 id="tweet-quote"
-                href={`twitter.com/intent/tweet?hashtags=quotes&text=${tweetText}`}
+                href={`https://twitter.com/intent/tweet?hashtags=quotes&text=${tweetText}`}
                 target="_blank"
             >Tweet Quote</a>
         </div>
